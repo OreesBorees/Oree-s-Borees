@@ -1,0 +1,147 @@
+body{
+	display: flex;
+	background-color: #1E1E1E;
+	flex-direction: column;	
+	/*flex-wrap: wrap;*/
+	line-height: 1.6;
+	/*margin-left, margin-right is not the solution. Just here for looks*/
+	/*margin-left: 25%;
+	margin-right: 25%;*/
+}
+.nav-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+.font-mono{
+	font-family: courier;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 5px;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	padding-top: 75px;
+}
+.t-style{
+	color: #ffffff;
+	font-family: courier;
+	font-size: 20px;
+}
+.subtitle{
+	display: flex;
+	justify-content: center;
+}	
+.m-st-style{
+	display: flex;
+	align-items: flex-end;
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+}
+.st-style{
+	display: flex;
+	align-self: ;
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+}
+.rule-a{
+	width: 35%;
+	border: double #ffffff;
+}
+.rule-b{
+	margin-top: 30px;
+	border-top: 1px dashed #ffffff;
+	width: 20%;
+	margin-bottom: 30px;
+}
+.stage{
+	display: flex;
+	justify-content: center;
+	align-self
+	padding-top: 10px;
+	/*width: 656.5px;*/
+}
+.al-style{
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+	padding-bottom: 20px;
+	width: 50%;
+	overflow: auto;
+	/*position: absolute;*/
+}
+.bl-style{
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+	width: 50%;
+	overflow: auto;
+}
+@media screen and (max-width: 768px) {
+body {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.font-mono {
+font-size: 8px;
+}
+
+.t-style {
+font-size: 18px;
+}
+
+.m-st-style {
+font-size: 14px;
+}
+
+.st-style {
+font-size: 12px;
+}
+
+.rule-a {
+width: 80%; /* Make the rule width larger on small screens */
+}
+
+.rule-b {
+width: 70%; /* Adjust the width of the dashed line on mobile */
+}
+
+.stage {
+width: 100%; /* Make the stage section use full width */
+}
+
+.al-style, .bl-style {
+width: 100%; /* Allow the text containers to take full width */
+}
+}
+
+@media screen and (max-width: 480px) {
+.font-mono {
+font-size: 11px;
+}
+
+.t-style {
+font-size: 16px;
+}
+
+.m-st-style {
+font-size: 12px;
+}
+
+.st-style {
+font-size: 12px;
+}
+
+.rule-a {
+width: 90%; /* Make the rule almost full width */
+}
+
+.rule-b {
+width: 90%; /* Same for the dashed line */
+}
+}

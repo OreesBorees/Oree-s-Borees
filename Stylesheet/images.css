@@ -1,0 +1,21 @@
+@media screen and (max-width: 2000px) and (min-width: 768px){ 
+.ascii{
+	line-height: .8;
+	display: inline-block;
+	font-family: courier;
+	font-size: 4px;
+	color: #ffffff;
+ 	padding-left: 26.5%;
+ 	padding-right: 20%;
+}
+}
+@media screen and (max-width: 768px) {
+.ascii{
+	line-height: 1;
+	display: inline-block;
+	font-family: courier;
+	font-size: 1.5px;
+	color: #ffffff;
+	padding-left: 9%;
+}
+}
