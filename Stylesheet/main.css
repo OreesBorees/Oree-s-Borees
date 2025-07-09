@@ -43,16 +43,30 @@ body{
 }
 .st-style{
 	display: flex;
-	align-self: ;
+	align-self: center;
 	color: #ffffff;
 	font-family: courier;
 	font-size: 15px;
+}
+.o-style{
+	display: flex;
+	width: 50%;
+	overflow: auto;
+	color: #ffffff;
+	font-family: courier;
+	font-size: 12px;
 }
 .rule-a{
 	width: 35%;
 	border: double #ffffff;
 }
 .rule-b{
+	margin-top: 5px;
+	border-top: 1px dashed #ffffff;
+	width: 20%;
+	margin-bottom: 20px;
+}
+.rule-c{
 	margin-top: 30px;
 	border-top: 1px dashed #ffffff;
 	width: 20%;
@@ -101,6 +115,7 @@ font-size: 14px;
 
 .st-style {
 font-size: 12px;
+width: 100%;
 }
 
 .rule-a {
