@@ -59,6 +59,7 @@ body{
 .rule-a{
 	width: 35%;
 	border: double #ffffff;
+	margin-bottom:30px ;
 }
 .rule-b{
 	margin-top: 5px;
@@ -71,6 +72,12 @@ body{
 	border-top: 1px dashed #ffffff;
 	width: 20%;
 	margin-bottom: 30px;
+}
+.rule-d{
+	margin-top: 35px;
+	border-top: 1px dashed #ffffff;
+	width: 20%;
+	margin-bottom: 35px;
 }
 .stage{
 	display: flex;
