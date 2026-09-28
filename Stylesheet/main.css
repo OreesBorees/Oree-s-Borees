@@ -20,6 +20,12 @@ body{
 	color: #ffffff;
 	padding: 5px;
 }
+.font-mono-b{
+	font-family: courier;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px;
+}
 .title{
 	display: flex;
 	justify-content: center;
@@ -55,6 +61,19 @@ body{
 	color: #ffffff;
 	font-family: courier;
 	font-size: 12px;
+}
+.textbox{
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 60px;
+	color: #000000;
+	padding: 5px;
+	border-style: dotted;
+	background-color: #ffffff;
+	font-family: courier;
+
+	/*margin-left: 5px;*/
 }
 .rule-a{
 	width: 35%;
@@ -102,6 +121,10 @@ body{
 	width: 50%;
 	overflow: auto;
 }
+.img{ 
+	padding-top: 35px;
+	padding-bottom: 35px;
+	 }
 @media screen and (max-width: 768px) {
 body {
 padding-left: 10px;
