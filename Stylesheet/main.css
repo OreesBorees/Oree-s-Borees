@@ -1,0 +1,202 @@
+body{
+	display: flex;
+	background-color: #1E1E1E;
+	flex-direction: column;	
+	/*flex-wrap: wrap;*/
+	line-height: 1.6;
+	/*margin-left, margin-right is not the solution. Just here for looks*/
+	/*margin-left: 25%;
+	margin-right: 25%;*/
+}
+.nav-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+.font-mono{
+	font-family: courier;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 5px;
+}
+.font-mono-b{
+	font-family: courier;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	padding-top: 75px;
+}
+.t-style{
+	color: #ffffff;
+	font-family: courier;
+	font-size: 20px;
+}
+.subtitle{
+	display: flex;
+	justify-content: center;
+}	
+.m-st-style{
+	display: flex;
+	align-items: flex-end;
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+}
+.st-style{
+	display: flex;
+	align-self: center;
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+}
+.o-style{
+	display: flex;
+	width: 50%;
+	overflow: auto;
+	color: #ffffff;
+	font-family: courier;
+	font-size: 12px;
+}
+.textbox{
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 60px;
+	color: #000000;
+	padding: 5px;
+	border-style: dotted;
+	background-color: #ffffff;
+	font-family: courier;
+
+	/*margin-left: 5px;*/
+}
+.rule-a{
+	width: 35%;
+	border: double #ffffff;
+	margin-bottom:30px ;
+}
+.rule-b{
+	margin-top: 5px;
+	border-top: 1px dashed #ffffff;
+	width: 20%;
+	margin-bottom: 20px;
+}
+.rule-c{
+	margin-top: 30px;
+	border-top: 1px dashed #ffffff;
+	width: 20%;
+	margin-bottom: 30px;
+}
+.rule-d{
+	margin-top: 35px;
+	border-top: 1px dashed #ffffff;
+	width: 20%;
+	margin-bottom: 35px;
+}
+.stage{
+	display: flex;
+	justify-content: center;
+	align-self
+	padding-top: 10px;
+	/*width: 656.5px;*/
+}
+.al-style{
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+	padding-bottom: 20px;
+	width: 50%;
+	overflow: auto;
+	/*position: absolute;*/
+}
+.bl-style{
+	color: #ffffff;
+	font-family: courier;
+	font-size: 15px;
+	width: 50%;
+	overflow: auto;
+}
+.img{ 
+	padding-top: 35px;
+	padding-bottom: 35px;
+	 }
+@media screen and (max-width: 768px) {
+body {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.font-mono {
+font-size: 11px;
+}
+
+.t-style {
+font-size: 18px;
+}
+
+.m-st-style {
+font-size: 14px;
+width: 100%;
+}
+
+.o-style{
+	font-size: 12px;
+	width: 100%;
+}
+
+.st-style {
+font-size: 12px;
+width: 100%;
+}
+
+.rule-a {
+width: 80%; /* Make the rule width larger on small screens */
+}
+
+.rule-b {
+width: 70%; /* Adjust the width of the dashed line on mobile */
+}
+
+.stage {
+width: 100%; /* Make the stage section use full width */
+}
+
+.al-style, .bl-style {
+width: 100%; /* Allow the text containers to take full width */
+}
+}
+
+@media screen and (max-width: 480px) {
+.font-mono {
+font-size: 11px;
+}
+
+.t-style {
+font-size: 16px;
+}
+
+.m-st-style {
+font-size: 12px;
+}
+
+.o-style{
+	font-size: 10px;
+}
+
+.st-style {
+font-size: 12px;
+}
+
+.rule-a {
+width: 90%; /* Make the rule almost full width */
+}
+
+.rule-b {
+width: 90%; /* Same for the dashed line */
+}
+}
